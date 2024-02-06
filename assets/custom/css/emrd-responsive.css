@@ -718,9 +718,20 @@
 }
 
 /* responsive */
-@media (min-width: 996px) and (min-height: 768px) {
-  .home-emrd-dashboard {
-  }
+.home-emrd-dashboard {
+  height: 100vh;
+}
+.home-emrd-dashboard .container {
+  height: 100%;
+}
+.home-emrd-dashboard .container .emrd-dashboard-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media (min-width: 996px) and (min-height: 768px) {
   #ringMainContainer:not(.ringDataShow)
     .emrd-ring-container
     .sdg-wheel-wrap
@@ -769,4 +780,4 @@
     .c-ring {
     transform: translate(0, 0) scale(1.4);
   }
-}
+} */
