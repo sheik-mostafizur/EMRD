@@ -10,8 +10,4 @@
 
 ## ring-main.js
 
-- show tooltip
-
-## index.html
-
-- toolTip id is **ringChartToolTip**
+- show text in the chart center
