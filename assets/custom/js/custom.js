@@ -43,7 +43,7 @@ $(document).ready(function () {
     var $container = $(".home-emrd-dashboard .container"),
       width = $container.width(),
       height = $container.height(),
-      scale = Math.min(width / 400, height / 400); // Assuming the original SVG size is 200x200
+      scale = Math.min(width / 460, height / 460); // Assuming the original SVG size is 200x200
     $(
       "#ringMainContainer:not(.ringDataShow) .emrd-ring-container .sdg-wheel-wrap .c-ring"
     ).css("transform", "scale(" + scale + ")");
