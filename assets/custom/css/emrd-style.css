@@ -1808,7 +1808,7 @@ body #searchOuter.sdgSrcOpen {
   align-items: center;
 }
 
-#emrdRing {
+/* #emrdRing {
   position: relative;
 }
 #ringChartToolTip {
@@ -1826,4 +1826,4 @@ body #searchOuter.sdgSrcOpen {
   padding: 0.5rem 1rem;
   transition: 0.3s;
   opacity: 0;
-}
+} */

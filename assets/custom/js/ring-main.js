@@ -305,11 +305,10 @@
   $(window).on("load", function () {
     data.forEach((item) => {
       $(`#sdg-${item.number}`).on("mouseenter", function () {
-        $("#ringChartToolTip").text(item.itemName);
-        $("#ringChartToolTip").css({"z-index": "111", opacity: "1"});
+        $("#emrdRing .ring-center-text span").text(item.itemName);
       });
       $(`#sdg-${item.number}`).on("mouseleave", function (e) {
-        $("#ringChartToolTip").css({"z-index": "0", opacity: "0"});
+        $("#emrdRing .ring-center-text span").html("EMRD <br> ACTIVITIES");
       });
     });
   });
